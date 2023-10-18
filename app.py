@@ -1,11 +1,11 @@
 from fastapi import FastAPI, APIRouter
 from requests import *
+import key;
 
 app = FastAPI(title="Sushi Restaurants API", openapi_url="/openapi.json")
 api_router = APIRouter()
 
-API_KEY = "Uk8pM0xPPTjCqFB89-4PSO7rGHcT7gCpMkXomHVrHq4uOKgvILWJ_m7C3MR_Ap47kQ5bvX4KgArqm5lNSynE73x58X4douDaUOoNxirfHDxeOBfMwVKZv_KVY7F0ZHYx"
-HEADERS = {"Authorization": f"Bearer {API_KEY}"}
+HEADERS = {"Authorization": f"Bearer {key.API_KEY}"} #get your own API key!
 base_url = "https://api.yelp.com/v3/businesses/search?"
 
 
