@@ -27,5 +27,12 @@ Lessons Learned:
 3. Understanding JSON structure
 4. How to pull requests from 3rd party internet services
 
+How to Run:
+1. Clone the app.py file to your computer
+2. Open it with a coding software
+3. Run the program
+4. Type "localhost:8000/docs" into your web browser URL
+5. Type the city of where you want to find sushi restaurants
+
 What's to Come:
 - Coding a website that is able to function with the Sushi Restaurant API
