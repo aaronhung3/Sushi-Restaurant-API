@@ -30,9 +30,11 @@ Lessons Learned:
 How to Run:
 1. Clone the app.py file to your computer
 2. Open it with a coding software
-3. Run the program
-4. Type "localhost:8000/docs" into your web browser URL
-5. Type the city of where you want to find sushi restaurants
+3. Get your own unique API key from Yelp Developers
+4. Put your API Key in the "key.API_KEY" place
+5. Run the program
+6. Type "localhost:8000/docs" into your web browser URL
+7. Type the city of where you want to find sushi restaurants
 
 What's to Come:
 - Coding a website that is able to function with the Sushi Restaurant API
